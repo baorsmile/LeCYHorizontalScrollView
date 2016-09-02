@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E79A4CB31D791E6900477FAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A4CB21D791E6900477FAB /* main.m */; };
+		E79A4CB61D791E6900477FAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A4CB51D791E6900477FAB /* AppDelegate.m */; };
+		E79A4CB91D791E6900477FAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A4CB81D791E6900477FAB /* ViewController.m */; };
+		E79A4CBC1D791E6900477FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79A4CBA1D791E6900477FAB /* Main.storyboard */; };
+		E79A4CBE1D791E6900477FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79A4CBD1D791E6900477FAB /* Assets.xcassets */; };
+		E79A4CC11D791E6900477FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79A4CBF1D791E6900477FAB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E79A4CAE1D791E6900477FAB /* LeCYScrollHeaderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeCYScrollHeaderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79A4CB21D791E6900477FAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E79A4CB41D791E6900477FAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E79A4CB51D791E6900477FAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E79A4CB71D791E6900477FAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E79A4CB81D791E6900477FAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E79A4CBB1D791E6900477FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E79A4CBD1D791E6900477FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79A4CC01D791E6900477FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E79A4CC21D791E6900477FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79A4CAB1D791E6900477FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E79A4CA51D791E6900477FAB = {
+			isa = PBXGroup;
+			children = (
+				E79A4CB01D791E6900477FAB /* LeCYScrollHeaderView */,
+				E79A4CAF1D791E6900477FAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E79A4CAF1D791E6900477FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79A4CAE1D791E6900477FAB /* LeCYScrollHeaderView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79A4CB01D791E6900477FAB /* LeCYScrollHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				E79A4CB41D791E6900477FAB /* AppDelegate.h */,
+				E79A4CB51D791E6900477FAB /* AppDelegate.m */,
+				E79A4CB71D791E6900477FAB /* ViewController.h */,
+				E79A4CB81D791E6900477FAB /* ViewController.m */,
+				E79A4CBA1D791E6900477FAB /* Main.storyboard */,
+				E79A4CBD1D791E6900477FAB /* Assets.xcassets */,
+				E79A4CBF1D791E6900477FAB /* LaunchScreen.storyboard */,
+				E79A4CC21D791E6900477FAB /* Info.plist */,
+				E79A4CB11D791E6900477FAB /* Supporting Files */,
+			);
+			path = LeCYScrollHeaderView;
+			sourceTree = "<group>";
+		};
+		E79A4CB11D791E6900477FAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E79A4CB21D791E6900477FAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79A4CAD1D791E6900477FAB /* LeCYScrollHeaderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79A4CC51D791E6900477FAB /* Build configuration list for PBXNativeTarget "LeCYScrollHeaderView" */;
+			buildPhases = (
+				E79A4CAA1D791E6900477FAB /* Sources */,
+				E79A4CAB1D791E6900477FAB /* Frameworks */,
+				E79A4CAC1D791E6900477FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeCYScrollHeaderView;
+			productName = LeCYScrollHeaderView;
+			productReference = E79A4CAE1D791E6900477FAB /* LeCYScrollHeaderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79A4CA61D791E6900477FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dabao;
+				TargetAttributes = {
+					E79A4CAD1D791E6900477FAB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2ADP58H4CZ;
+					};
+				};
+			};
+			buildConfigurationList = E79A4CA91D791E6900477FAB /* Build configuration list for PBXProject "LeCYScrollHeaderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79A4CA51D791E6900477FAB;
+			productRefGroup = E79A4CAF1D791E6900477FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79A4CAD1D791E6900477FAB /* LeCYScrollHeaderView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79A4CAC1D791E6900477FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A4CC11D791E6900477FAB /* LaunchScreen.storyboard in Resources */,
+				E79A4CBE1D791E6900477FAB /* Assets.xcassets in Resources */,
+				E79A4CBC1D791E6900477FAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79A4CAA1D791E6900477FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A4CB91D791E6900477FAB /* ViewController.m in Sources */,
+				E79A4CB61D791E6900477FAB /* AppDelegate.m in Sources */,
+				E79A4CB31D791E6900477FAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E79A4CBA1D791E6900477FAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79A4CBB1D791E6900477FAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E79A4CBF1D791E6900477FAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79A4CC01D791E6900477FAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E79A4CC31D791E6900477FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E79A4CC41D791E6900477FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79A4CC61D791E6900477FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeCYScrollHeaderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dabao.LeCYScrollHeaderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E79A4CC71D791E6900477FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeCYScrollHeaderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dabao.LeCYScrollHeaderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79A4CA91D791E6900477FAB /* Build configuration list for PBXProject "LeCYScrollHeaderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A4CC31D791E6900477FAB /* Debug */,
+				E79A4CC41D791E6900477FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79A4CC51D791E6900477FAB /* Build configuration list for PBXNativeTarget "LeCYScrollHeaderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A4CC61D791E6900477FAB /* Debug */,
+				E79A4CC71D791E6900477FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E79A4CA61D791E6900477FAB /* Project object */;
+}
