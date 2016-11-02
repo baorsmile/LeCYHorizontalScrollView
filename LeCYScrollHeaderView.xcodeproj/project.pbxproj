@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E72220811D7EAF2900FCE937 /* LeCYHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72220801D7EAF2900FCE937 /* LeCYHorizontalScrollView.m */; };
+		E72220841D7EBF7900FCE937 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72220831D7EBF7900FCE937 /* SecondViewController.m */; };
+		E72220871D7EC39600FCE937 /* LeCYRoomListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72220861D7EC39600FCE937 /* LeCYRoomListView.m */; };
+		E722208A1D7FB6C200FCE937 /* LeCYHorizontalBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72220891D7FB6C200FCE937 /* LeCYHorizontalBaseView.m */; };
 		E79A4CB31D791E6900477FAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A4CB21D791E6900477FAB /* main.m */; };
 		E79A4CB61D791E6900477FAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A4CB51D791E6900477FAB /* AppDelegate.m */; };
-		E79A4CB91D791E6900477FAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A4CB81D791E6900477FAB /* ViewController.m */; };
 		E79A4CBC1D791E6900477FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79A4CBA1D791E6900477FAB /* Main.storyboard */; };
 		E79A4CBE1D791E6900477FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79A4CBD1D791E6900477FAB /* Assets.xcassets */; };
 		E79A4CC11D791E6900477FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79A4CBF1D791E6900477FAB /* LaunchScreen.storyboard */; };
+		E79A4CCA1D791EA700477FAB /* LeCYLeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A4CC91D791EA700477FAB /* LeCYLeadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E722207F1D7EAF2900FCE937 /* LeCYHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeCYHorizontalScrollView.h; sourceTree = "<group>"; };
+		E72220801D7EAF2900FCE937 /* LeCYHorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeCYHorizontalScrollView.m; sourceTree = "<group>"; };
+		E72220821D7EBF7900FCE937 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E72220831D7EBF7900FCE937 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E72220851D7EC39600FCE937 /* LeCYRoomListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeCYRoomListView.h; sourceTree = "<group>"; };
+		E72220861D7EC39600FCE937 /* LeCYRoomListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeCYRoomListView.m; sourceTree = "<group>"; };
+		E72220881D7FB6C200FCE937 /* LeCYHorizontalBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeCYHorizontalBaseView.h; sourceTree = "<group>"; };
+		E72220891D7FB6C200FCE937 /* LeCYHorizontalBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeCYHorizontalBaseView.m; sourceTree = "<group>"; };
 		E79A4CAE1D791E6900477FAB /* LeCYScrollHeaderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeCYScrollHeaderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79A4CB21D791E6900477FAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E79A4CB41D791E6900477FAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E79A4CB51D791E6900477FAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E79A4CB71D791E6900477FAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E79A4CB81D791E6900477FAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E79A4CBB1D791E6900477FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E79A4CBD1D791E6900477FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E79A4CC01D791E6900477FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E79A4CC21D791E6900477FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79A4CC81D791EA700477FAB /* LeCYLeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeCYLeadView.h; sourceTree = "<group>"; };
+		E79A4CC91D791EA700477FAB /* LeCYLeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeCYLeadView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E722208B1D7FC07E00FCE937 /* HorizontalScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				E722207F1D7EAF2900FCE937 /* LeCYHorizontalScrollView.h */,
+				E72220801D7EAF2900FCE937 /* LeCYHorizontalScrollView.m */,
+				E72220881D7FB6C200FCE937 /* LeCYHorizontalBaseView.h */,
+				E72220891D7FB6C200FCE937 /* LeCYHorizontalBaseView.m */,
+			);
+			name = HorizontalScrollView;
+			sourceTree = "<group>";
+		};
 		E79A4CA51D791E6900477FAB = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +81,15 @@
 		E79A4CB01D791E6900477FAB /* LeCYScrollHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				E722208B1D7FC07E00FCE937 /* HorizontalScrollView */,
 				E79A4CB41D791E6900477FAB /* AppDelegate.h */,
 				E79A4CB51D791E6900477FAB /* AppDelegate.m */,
-				E79A4CB71D791E6900477FAB /* ViewController.h */,
-				E79A4CB81D791E6900477FAB /* ViewController.m */,
+				E72220821D7EBF7900FCE937 /* SecondViewController.h */,
+				E72220831D7EBF7900FCE937 /* SecondViewController.m */,
+				E72220851D7EC39600FCE937 /* LeCYRoomListView.h */,
+				E72220861D7EC39600FCE937 /* LeCYRoomListView.m */,
+				E79A4CC81D791EA700477FAB /* LeCYLeadView.h */,
+				E79A4CC91D791EA700477FAB /* LeCYLeadView.m */,
 				E79A4CBA1D791E6900477FAB /* Main.storyboard */,
 				E79A4CBD1D791E6900477FAB /* Assets.xcassets */,
 				E79A4CBF1D791E6900477FAB /* LaunchScreen.storyboard */,
@@ -150,9 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E79A4CB91D791E6900477FAB /* ViewController.m in Sources */,
+				E722208A1D7FB6C200FCE937 /* LeCYHorizontalBaseView.m in Sources */,
+				E72220871D7EC39600FCE937 /* LeCYRoomListView.m in Sources */,
+				E72220841D7EBF7900FCE937 /* SecondViewController.m in Sources */,
 				E79A4CB61D791E6900477FAB /* AppDelegate.m in Sources */,
 				E79A4CB31D791E6900477FAB /* main.m in Sources */,
+				E72220811D7EAF2900FCE937 /* LeCYHorizontalScrollView.m in Sources */,
+				E79A4CCA1D791EA700477FAB /* LeCYLeadView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +333,7 @@
 				E79A4CC71D791E6900477FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
